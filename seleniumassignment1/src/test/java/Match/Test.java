@@ -29,7 +29,7 @@ public class Test {
 			System.out.println("URL didn't match");
 		
 		//Second Method
-				Assert.assertEquals("Title Matched", ActualURL, ExpectedURL);
+				Assert.assertEquals("Title Match", ActualURL, ExpectedURL);
 
 	}
 
