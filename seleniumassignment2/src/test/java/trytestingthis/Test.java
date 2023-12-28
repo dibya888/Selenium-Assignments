@@ -58,8 +58,6 @@ public class Test {
 		WebElement submit = driver.findElement(By.className("btn-success"));
 		Thread.sleep(10000);
 		submit.click();
-		
-
 	}
 
 }
