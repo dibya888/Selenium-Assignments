@@ -1,6 +1,6 @@
 SLF4J: Defaulting to no-operation (NOP) logger implementation
 SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
 URL didn't match
-Exception in thread "main" org.junit.ComparisonFailure: Title Matched expected:<...//www.saucedemo.com/[]> but was:<...//www.saucedemo.com/[v1/]>
+Exception in thread "main" org.junit.ComparisonFailure: Title Match expected:<...//www.saucedemo.com/[]> but was:<...//www.saucedemo.com/[v1/]>
 	at org.junit.Assert.assertEquals(Assert.java:117)
 	at Match.Test.main(Test.java:32)
