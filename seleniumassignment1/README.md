@@ -4,4 +4,5 @@ To execute this file, You must add a JUnit library and necessary dependencies in
 
 Output: (Also shown in Output.txt)
 
-![image](https://github.com/dibya888/Selenium-Assignments/assets/48979445/1025c103-a5fc-4ea8-b6f9-b29e60581eed)
+![image](https://github.com/dibya888/Selenium-Assignments/assets/48979445/2bbc626c-c38a-4a88-a9ea-cc8b3b383d79)
+
