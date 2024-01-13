@@ -1,6 +1,7 @@
 package trytestingthis;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.firefox.FirefoxDriver;
@@ -49,6 +50,10 @@ public class Test {
 		WebElement checklist3 = driver.findElement(By.name("option3"));
 		checklist3.click();
 		
+		//Upload File
+		WebElement upload = driver.findElement(By.xpath("//input[@id='myfile']"));
+		upload.sendKeys("C:\\Users\\Dibya\\Downloads\\1703857179690.png");
+		
 		//Long Message
 		WebElement longmsg = driver.findElement(By.name("message"));
 		longmsg.clear();
@@ -58,6 +63,10 @@ public class Test {
 		WebElement submit = driver.findElement(By.className("btn-success"));
 		Thread.sleep(10000);
 		submit.click();
+		
+		//Closing Browser
+		Thread.sleep(5000);
+		driver.quit();
 	}
 
 }
